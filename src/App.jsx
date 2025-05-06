@@ -1,11 +1,10 @@
 import React from 'react'
+import Home from './Pages/Home'
 
 const App = () => {
   return (
     <div>
-      <div className="bg-blue-500 text-white p-4 rounded-lg">
-  Hello Tailwind!
-</div>
+        <Home />
     </div>
   )
 }
