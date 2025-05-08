@@ -1,14 +1,23 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @theme {
     --color-primary:#000000;
     --color-secondary:#ffffff;
-    --jaguar-color:#33BBCF;
+    --color-jaguar:#33BBCF;
 }
-
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+/*  */
+.header{
+    @apply text-white text-lg font-normal hover:text-jaguar duration-500;
+}
+.ai-container{
+    @apply container mx-auto px-5;
+}
 .footer-menu{
     @apply block text-lg font-normal mb-2 text-slate-300 hover:underline hover:text-[#5CE1E6] duration-500;
 }
 .footer-social-menu{
-    @apply text-white text-2xl hover:text-jaguar ;
+    @apply text-white text-2xl hover:text-jaguar duration-500;
 }
