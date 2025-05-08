@@ -1,7 +1,7 @@
 import React from 'react'
 import InvoiceImage from '../../Assets/invoice.png';
-import AppleStore from '../../Assets/apple-store.svg';
 import PlayStore from '../../Assets/play-store.svg';
+import AppleStore from '../../Assets/apple-store.svg';
 
 const Invoice = () => {
   return (
@@ -19,7 +19,6 @@ const Invoice = () => {
                        <img src={PlayStore} alt="Play Store" />
                   </div>
                 </div>
-                
             </div>
         </div>
     </div>
