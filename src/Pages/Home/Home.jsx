@@ -1,10 +1,10 @@
 import React from 'react'
-import Footer from '../Components/Footer/Footer'
+import Steps from './Steps'
 
 const Home = () => {
   return (
     <div>
-        <Footer />
+        <Steps />
     </div>
   )
 }

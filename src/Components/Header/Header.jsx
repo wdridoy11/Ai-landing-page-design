@@ -33,7 +33,7 @@ const Header = () => {
 
 
   return (
-    <div className='bg-white dark:bg-black mb-20 py-5'>
+    <div className='bg-white dark:bg-body mb-20 py-5'>
         <div className='ai-container'>
             <div className='flex justify-between items-center'>
                 <div>
@@ -42,7 +42,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div>
-                    <ul className='flex gap-5'>
+                    <ul className='flex gap-10'>
                         <Link to={'/'} className='header'>Home</Link>
                         <Link to={'/'} className='header'>About</Link>
                         <Link to={'/'} className='header'>Features</Link>
