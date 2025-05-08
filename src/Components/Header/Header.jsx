@@ -33,7 +33,7 @@ const Header = () => {
 
 
   return (
-    <div className='bg-white dark:bg-body mb-20 py-5'>
+    <div className='bg-white dark:bg-body py-5'>
         <div className='ai-container'>
             <div className='flex justify-between items-center'>
                 <div>
