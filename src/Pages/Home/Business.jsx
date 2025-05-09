@@ -30,8 +30,8 @@ const Business = () => {
                             <GrSecure className='text-jaguar text-4xl' />
                         </div>
                         <div>
-                            <h3 className='heading-text-mood mb-2 text-lg font-semibold'>100% Secured</h3>
-                            <p className='text-mood text-lg'>We take proactive steps make sure your information and transactions are secure.</p>
+                            <h3 className='text-white mb-2 text-lg font-semibold'>100% Secured</h3>
+                            <p className='text-slate-300 text-lg'>We take proactive steps make sure your information and transactions are secure.</p>
                         </div>
                     </div>
 
