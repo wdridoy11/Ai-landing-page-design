@@ -18,40 +18,40 @@ const Testimonial = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-10 pt-16'>
                     <div className='effect-btn p-10'>
                         <img className='' src={Arrow} alt="arrow" />
-                        <p className='text-mood text-lg mt-5'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
+                        <p className='text-slate-300 text-lg mt-5'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
                         <div className='flex items-center gap-5 mt-5'>
                             <div>
                                 <img src={Testimonial_1} alt="Testimonial" />
                             </div>
                             <div>
-                                <h3 className='heading-text-mood text-lg'>Herman Jensen</h3>
-                                <p className='text-sm text-mood'>Founder & Leader</p>
+                                <h3 className='text-white text-lg'>Herman Jensen</h3>
+                                <p className='text-sm text-slate-300'>Founder & Leader</p>
                             </div>
                         </div>
                     </div>
                     <div className='effect-btn p-10'>
                         <img className='' src={Arrow} alt="arrow" />
-                        <p className='text-mood text-lg mt-5'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
+                        <p className='text-slate-300 text-lg mt-5'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
                         <div className='flex items-center gap-5 mt-5'>
                             <div>
                                 <img src={Testimonial_1} alt="Testimonial" />
                             </div>
                             <div>
-                                <h3 className='heading-text-mood text-lg'>Herman Jensen</h3>
-                                <p className='text-sm text-mood'>Founder & Leader</p>
+                                <h3 className='text-white text-lg'>Herman Jensen</h3>
+                                <p className='text-sm text-slate-300'>Founder & Leader</p>
                             </div>
                         </div>
                     </div>
                     <div className='effect-btn p-10'>
                         <img className='' src={Arrow} alt="arrow" />
-                        <p className='text-mood text-lg mt-5'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
+                        <p className='text-slate-300 text-lg mt-5'>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
                         <div className='flex items-center gap-5 mt-5'>
                             <div>
                                 <img src={Testimonial_1} alt="Testimonial" />
                             </div>
                             <div>
-                                <h3 className='heading-text-mood text-lg'>Herman Jensen</h3>
-                                <p className='text-sm text-mood'>Founder & Leader</p>
+                                <h3 className='text-white text-lg'>Herman Jensen</h3>
+                                <p className='text-sm text-slate-300'>Founder & Leader</p>
                             </div>
                         </div>
                     </div>

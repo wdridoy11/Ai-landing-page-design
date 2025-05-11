@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/f
 const Footer = () => {
   return (
     <div>
-        <div className='bg-white dark:bg-body py-14'>
+        <div className='bg-slate-400 dark:bg-body py-14'>
             <div className='ai-container px-5'>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
@@ -15,7 +15,7 @@ const Footer = () => {
                         <Link to={'/'}>
                             <img src={Logo} alt="Logo" />
                         </Link>
-                        <p>A new way to make the payments easy, reliable and secure.</p>
+                        <p className='text-slate-300'>A new way to make the payments easy, reliable and secure.</p>
                     </div>
                     {/* Footer menu */}
                     <div>
